@@ -1,14 +1,13 @@
 # -----------------------------------------------------------------------------
 #
-# This file is part of the µOS++ distribution.
-#   (https://github.com/micro-os-plus/)
-# Copyright (c) 2022 Liviu Ionescu
+# This file is part of the µOS++ project (https://micro-os-plus.github.io/).
+# Copyright (c) 2022-2025 Liviu Ionescu. All rights reserved.
 #
 # Permission to use, copy, modify, and/or distribute this software
 # for any purpose is hereby granted, under the terms of the MIT license.
 #
 # If a copy of the license was not distributed with this file, it can
-# be obtained from https://opensource.org/licenses/MIT/.
+# be obtained from https://opensource.org/licenses/mit.
 #
 # -----------------------------------------------------------------------------
 
@@ -34,7 +33,6 @@ micro_os_plus_devices_cortexm_dependency = declare_dependency(
   ),
   sources: files(
     'src/diag/trace-itm.cpp',
-    'src/diag/trace-segger-rtt.cpp',
 
     'src/startup/initialize-hardware-early.c',
     'src/startup/initialize-hardware.c',
