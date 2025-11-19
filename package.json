@@ -1,11 +1,11 @@
 {
   "name": "@micro-os-plus/devices-cortexm",
-  "version": "4.1.0",
+  "version": "5.0.0-pre",
   "description": "A source code library with µOS++ Cortex-M devices support",
   "main": "",
   "scripts": {
     "npm-install": "npm install",
-    "pack": "npm pack",
+    "npm-pack": "npm pack",
     "npm-version-patch": "npm version patch",
     "npm-version-minor": "npm version minor",
     "postversion": "git push origin --all && git push origin --tags",
